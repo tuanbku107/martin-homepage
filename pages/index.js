@@ -21,6 +21,7 @@ const Page = () => {
           p={3}
           mb={6}
           align="center"
+          className="font-bold"
         >
           I&#39;m a fullstack developer
         </Box>
