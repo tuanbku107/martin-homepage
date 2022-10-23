@@ -10,10 +10,12 @@ import Paragraph from '../components/paragraph'
 import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import { CONTENT_INDEX_PAGE } from '../common/constants'
+import VoxelDog from '../components/voxel-dog'
 
 const Page = () => {
   return (
     <Layout>
+      <VoxelDog />
       <Container>
         <Box
           borderRadius="lg"

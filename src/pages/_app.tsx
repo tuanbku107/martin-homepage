@@ -4,6 +4,7 @@ import theme from '../libs/theme'
 import Fonts from '../components/fonts'
 import { AnimatePresence } from 'framer-motion'
 import '../styles/global.css'
+import VoxelDog from '../components/voxel-dog'
 
 const Website = ({ Component, pageProps, router }) => {
   return (
